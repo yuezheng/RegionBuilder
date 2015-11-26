@@ -1,0 +1,15 @@
+{
+    "auth": {
+        "url": "http://200.21.3.2:5000/v2.0",
+        "username": "admin",
+        "password": "zyzzy",
+        "tenant_name": "admin"
+    },
+    "regions": [
+        {
+            "name": "Region_ABC",
+            "base_url": "http:200.21.3.5",
+            "mysql_uri": "mysql://root:zyzzy@127.0.0.1/keystone?charset=utf8"
+        }
+    ]
+}
