@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 SQL = "SELECT id, type FROM service WHERE enabled=1"
 
 def conn(db_conn):
+    services = ''
     try:
         db = create_engine(db_conn)
         services = db.execute(SQL)
